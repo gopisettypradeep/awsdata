@@ -1,1 +1,27 @@
+ Creating the network for future use.
+
+Creating VPC with name 
+- bharatlayout
+  10.0.0.0/16
+
+creating subnets : public subnet
+- 1stcross - 10.0.0.0/20
+- 3rdcross - 10.0.16.0/20
+Creating subnets : private subnet
+- 2ndcross - 10.0.128.0/20
+- 4thcross - 10.0.144.0/20
+
+creating routetables : public routetables
+- 1stmain
+- 2ndmain
+
+creating routetables : private routetables
+- 3rdmain
+
+Creating internetgateway
+- singleentry
+
+Security group
+- cc-camers1
+
 
