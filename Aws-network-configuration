@@ -23,5 +23,8 @@ Creating internetgateway
 
 Security group
 - cc-camers1
-
+- backgate1
+- backgate2
+Natgateway
+- NATGATEOpen
 
