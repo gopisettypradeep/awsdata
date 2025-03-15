@@ -21,6 +21,9 @@ creating routetables : private routetables
 Creating internetgateway
 - singleentry
 
+
+# we created bastion host and private subnet based no internet host we launched. Along with that NAT gateway is created and assigned to the private host, where internet is allowed using the nat gateway. Host get connected with in the VPC.
+
 Security group
 - cc-camers1
 - backgate1
