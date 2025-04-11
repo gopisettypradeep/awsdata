@@ -9,3 +9,19 @@ result :
 0:Bob
 1:Alice
 2:Guido
+------
+x = [10,20,30,100]
+
+print(type(x))
+b = bytearray(x)
+b[3] = 65
+print (b[3])
+for i in b : print(i)
+O/p
+<class 'list'>
+65
+10
+20
+30
+65
+----
