@@ -1,0 +1,48 @@
+Terraform scirpts are used in this case to peform the actions in the AWS.
+
+COnfiguring the aws cli with requried authendication
+
+like ( account id, security key, secret key)
+
+Commands used to perform the terrform
+
+terraform init - to initialize the terrraform environment
+
+Terraform is an infrastructure as code (IaC) tool that allows you to build, change, and 
+version infrastructure safely and efficiently
+Terraform can automate the provisoning the infrastrucutre itself.
+
+terraform apply
+
+terraform plan -out out.terraform
+terraform apply "out.terraform"
+
+
+==== Terraform variable types ===
+
+Terraform's simple variable types.
+• Number
+• String
+• Bool
+
+executed a script to create the S3 bucket globally
+
+script :
+
+provider "aws" {
+  region = "eu-west-1"
+}
+
+resource "aws_s3_bucket" "first_bucket" {
+  bucket = "venkprdp-datafirst-bucket"
+}
+
+Solution :
+venkprdp-datafirst-bucket
+Europe (Ireland) eu-west-1
+View analyzer for eu-west-1
+April 12, 2025, 22:45:18 (UTC+05:30)
+
+
+
+
