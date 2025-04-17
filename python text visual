@@ -38,3 +38,9 @@ Solution:
 6
 7
 ---------------------
+# validation using the value with if condition equality and relational operators
+height = 187
+if not (height == 170):
+    print (1)
+if not (height > 160 and height < 200):
+    print(2)
