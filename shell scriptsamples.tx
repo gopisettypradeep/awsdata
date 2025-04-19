@@ -1,0 +1,10 @@
+first sample
+
+--------------------
+
+By using sed command capturing the required string from the input value.
+
+echo "Some text CC-3999 and more text 9789" | sed -e "s/^.*\(CC-[0-9]*\).*/\1/"
+
+Output :
+CC-3999
