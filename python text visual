@@ -77,5 +77,20 @@ Solution :
 8
 6
 4
+--------------------
+range example 2
 
+x = range(22,3,-4)
+y = x[2:3]
+print(y)
+for z in x:
+    print(z)
+
+solution : 
+range(14, 10, -4)
+22
+18
+14
+10
+6
 
