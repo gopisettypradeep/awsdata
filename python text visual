@@ -55,3 +55,27 @@ sum=0
 for y in x:
       sum=sum+int(y)
       print(sum)
+-------------------------------------
+
+working on range values
+
+x = range(22,3,-2)
+y = x[2]
+print(y)
+for z in x:
+    print(z)
+
+Solution :
+18
+22
+20
+18
+16
+14
+12
+10
+8
+6
+4
+
+
