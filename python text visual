@@ -44,3 +44,14 @@ if not (height == 170):
     print (1)
 if not (height > 160 and height < 200):
     print(2)
+------------------------------------
+
+from sys import argv
+r=argv[4]
+print(r)
+x=argv[1:]
+print(argv[1])
+sum=0
+for y in x:
+      sum=sum+int(y)
+      print(sum)
