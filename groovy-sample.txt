@@ -1,0 +1,6 @@
+sample way of defining the variable with mapp the key values dynamically.
+
+  def changeModules = [:]
+changeModules['moduleA'] = 'Updated'
+changeModules['moduleB'] = 'Not Updated'
+println changedModules['moduleA'] // Outputs: Updated
